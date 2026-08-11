@@ -253,6 +253,7 @@ button:hover {
     color: #333;
     font-weight: bold;
     padding: 12px 30px;
+    
 }
 
 
@@ -271,7 +272,7 @@ button:hover {
 .info-section {
     padding: 60px 40px;
     background-color: #1a1a2e;
-    
+
 }
 
 .info-grid {
