@@ -435,7 +435,25 @@ button:hover {
    - Atribua grid-area: redes ao quarto
    ============================================= */
 
-/* ESCREVA SEU CODIGO AQUI */
+ .footer-grid {
+  grid-template-areas: "marca links contato redes";
+}
+
+.footer-col:nth-child(1) {
+  grid-area: marca;
+}
+
+.footer-col:nth-child(2) {
+  grid-area: links;
+}
+
+.footer-col:nth-child(3) {
+  grid-area: contato;
+}
+
+.footer-col:nth-child(4) {
+  grid-area: redes;
+}
 
 
 /* =============================================
@@ -453,4 +471,4 @@ button:hover {
    - .footer-grid tenha 2 colunas em vez de 4
    ============================================= */
 
-/* ESCREVA SEU CODIGO AQUI */
+
