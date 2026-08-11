@@ -242,11 +242,12 @@ button:hover {
 .destaque-principal .preco {
     color: #ffd700;
     font-size: 1.8rem;
-    
+
 }
 
 .destaque-principal .produto-img {
     font-size: 5rem;
+    
 }
 
 .destaque-principal button {
