@@ -377,7 +377,9 @@ button:hover {
 .footer-grid {
     max-width: 1100px;
     margin: 0 auto;
-    /* ESCREVA SEU CODIGO AQUI */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 
 .footer-col h4 {
