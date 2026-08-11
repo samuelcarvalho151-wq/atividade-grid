@@ -276,7 +276,9 @@ button:hover {
 .info-grid {
     max-width: 1100px;
     margin: 0 auto;
-    /* ESCREVA SEU CODIGO AQUI */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
 
 .info-card {
