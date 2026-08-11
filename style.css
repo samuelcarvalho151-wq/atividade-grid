@@ -57,7 +57,9 @@ button:hover {
 .header {
     background-color: #1a1a2e;
     padding: 15px 40px;
-    /* ESCREVA SEU CODIGO AQUI */
+    align-items: center;
+    grid-template-columns: 1fr auto;
+    display: grid;
 }
 
 .logo {
@@ -99,7 +101,10 @@ button:hover {
     padding: 80px 20px;
     text-align: center;
     min-height: 300px;
-    /* ESCREVA SEU CODIGO AQUI */
+     display: grid;
+    place-items: center;
+    
+    
 }
 
 .banner h1 {
@@ -132,7 +137,9 @@ button:hover {
 .categorias-grid {
     max-width: 1000px;
     margin: 0 auto;
-    /* ESCREVA SEU CODIGO AQUI */
+    display: grid;
+    grid-template-columns:  3/1fr;
+    gap: 20px;
 }
 
 .categoria-card {
@@ -180,7 +187,9 @@ button:hover {
 .produtos-grid {
     max-width: 1000px;
     margin: 0 auto;
-    /* ESCREVA SEU CODIGO AQUI */
+    display: grid;
+    grid-template-columns:  3/1fr;
+    gap: 20px;
 }
 
 .produto-card {
@@ -225,8 +234,10 @@ button:hover {
 .destaque-principal {
     background: linear-gradient(135deg, #6c63ff, #5a52d5);
     color: white;
-    /* ESCREVA SEU CODIGO AQUI */
+    grid-column: span 2 ;
+    grid-row: span 2 ;
 }
+
 
 .destaque-principal .preco {
     color: #ffd700;
