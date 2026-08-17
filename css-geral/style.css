@@ -350,6 +350,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .prato-info {
@@ -492,7 +493,14 @@ body {
    ============================================= */
 
 .prato-tag {
-    /* ESCREVA SEU CODIGO AQUI */
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;    
 }
 
 .depoimentos {
@@ -528,7 +536,16 @@ body {
 }
 
 .autor-avatar {
-    /* ESCREVA SEU CODIGO AQUI */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e67e22;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 .autor-info {
