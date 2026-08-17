@@ -270,21 +270,29 @@ body {
 
 .diferencial-card {
     flex: 1;
-    /* ESCREVA SEU CODIGO AQUI */
+    padding: 35px;
+    border: 2px solid #fde8d0;
+    border-radius: 12px;
+    background-color: white;
 }
 
 .diferencial-icone {
     font-size: 2.5rem;
-    /* ESCREVA SEU CODIGO AQUI */
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+
 }
 
 .diferencial-card h3 {
     color: #1a1a2e;
-    /* ESCREVA SEU CODIGO AQUI */
+    margin-bottom: 12px;
+    font-size: 1.2rem;
 }
 
 .diferencial-card p {
-    /* ESCREVA SEU CODIGO AQUI */
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.6;
 }
 
 .diferencial-link {
