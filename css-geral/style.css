@@ -141,17 +141,24 @@ body {
 .hero-subtitulo {
     color: #e67e22;
     margin-bottom: 15px;
-    /* ESCREVA SEU CODIGO AQUI */
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
 }
 
 .hero-titulo {
     color: white;
     margin-bottom: 20px;
-    /* ESCREVA SEU CODIGO AQUI */
+    font-size: 3rem;
+    line-height: 1.2;
 }
 
 .texto-destaque {
-    /* ESCREVA SEU CODIGO AQUI */
+    color: #e67e22;
+    text-decoration: underline;
+    text-decoration: color #e67e22;
+    text-underline-offset:  5px;
 }
 
 .hero-descricao {
