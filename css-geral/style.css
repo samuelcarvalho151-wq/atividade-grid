@@ -399,7 +399,28 @@ body {
      transform: scale(1.05) e opacity: 0.9
    ============================================= */
 
-/* ESCREVA SEU CODIGO AQUI */
+   .diferencial-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.diferencial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(230, 126, 34, 0.15);
+}
+
+.prato-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primario {
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn-primario:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
 
 
 /* =============================================
@@ -425,7 +446,27 @@ body {
      position: relative para isso funcionar)
    ============================================= */
 
-/* ESCREVA SEU CODIGO AQUI */
+    .secao-titulo::after{
+        content: "";
+        display: block;
+        width: 60px;
+        height: 4px;
+        background-color: #e67e22;
+        margin: 12px auto 0;
+        border-radius: 2px;
+    }
+    .depoimento-card::before{
+        content: "\201c";
+        font-size: 4rem;
+        color: #e67e22;
+        opacity: 0.2;
+        position: absolute;
+        top: 10px ;
+        left: 20px;
+    }
+    .depoimento-card{
+        position: relative;
+    }
 
 
 /* =============================================
