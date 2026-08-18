@@ -274,11 +274,21 @@ body {
    ============================================= */
 
 .foto-placeholder {
-    /* ESCREVA SEU CODIGO AQUI */
+   width: 120px;
+   height: 120px;
+   clip-path: circle(50%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 2.5rem;
+   color: #fff;
+   font-weight: bold;
 }
 
 .secao-stats {
-    /* ESCREVA SEU CODIGO AQUI */
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    background-color: #e74c3c;
+    padding: 100px 40px;
 }
 
 
