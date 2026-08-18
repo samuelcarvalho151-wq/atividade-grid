@@ -459,15 +459,21 @@ body {
    ============================================= */
 
 .plano-lista {
-    /* ESCREVA SEU CODIGO AQUI */
+    list-style: none;
+    padding: 20px 0;
+    counter-reset: beneficio;
 }
 
 .plano-item {
-    /* ESCREVA SEU CODIGO AQUI */
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    counter-increment: beneficio;
 }
 
 .plano-item::before {
-    /* ESCREVA SEU CODIGO AQUI */
+    content: counter(beneficio) ". ";
+    font-weight: bold;
+    color: #e74c3c;
 }
 
 
