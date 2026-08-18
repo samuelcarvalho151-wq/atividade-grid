@@ -528,7 +528,7 @@ body {
     line-height: 1.7;
     margin-bottom: 20px;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -589,7 +589,7 @@ body {
 
    .prato-info p {
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    
     -webkit-box-orient: vertical;
     overflow: hidden;
     
@@ -646,11 +646,9 @@ body {
      .footer-topo{
         flex-direction: column;
         gap: 30px;
-     }
-   
-
-
-     }
+    
+    }
+}
    
   
 
