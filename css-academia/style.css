@@ -121,6 +121,7 @@ body {
     text-align: center;
     background-color: var(--cor-card);
     color: var(--cor-texto);
+    transition: transform 0.3s ease;
     
 }
 
@@ -332,7 +333,7 @@ body {
     padding: 30px;
     border-radius: 12px;
     filter: drop-shadow(0 4px 15px rgba(231, 76, 60, 0.3));
-    
+
 }
 
 
@@ -364,15 +365,21 @@ body {
    ============================================= */
 
 .plano-card:hover {
-    /* ESCREVA SEU CODIGO AQUI */
-}
-
+   transform: translateY(-10px);
+   scale: (1.02);
+   ;
+ }
 .stat-numero {
-    /* ESCREVA SEU CODIGO AQUI */
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    transition: transform 0.3s ease;
 }
 
 .stat-item:hover .stat-numero {
-    /* ESCREVA SEU CODIGO AQUI */
+    transform: rotate(5deg) scale(1.2);
+    
 }
 
 
