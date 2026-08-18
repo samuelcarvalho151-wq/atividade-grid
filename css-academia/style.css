@@ -102,19 +102,26 @@ body {
    ============================================= */
 
 :root {
-    /* ESCREVA SEU CODIGO AQUI */
+      --cor-primaria: #e74c3c;
+      --cor-secundaria: #c0392b;
+      --cor-fundo: #1a1a2e; 
+      --cor-card: #16213e; 
+      --cor-texto: #eee;
+       
 }
 
 .secao {
     padding: 80px 40px;
-    /* ESCREVA SEU CODIGO AQUI - aplique --cor-fundo */
+    background-color: var(--cor-fundo);
 }
 
 .plano-card {
     padding: 40px 30px;
     border-radius: 12px;
     text-align: center;
-    /* ESCREVA SEU CODIGO AQUI - aplique --cor-card e --cor-texto */
+    background-color: var(--cor-card);
+    color: var(--cor-texto);
+    
 }
 
 
