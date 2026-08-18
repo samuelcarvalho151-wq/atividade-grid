@@ -318,18 +318,21 @@ body {
     background-color: #16213e;
     border-radius: 12px;
     overflow: hidden;
-    /* ESCREVA SEU CODIGO AQUI */
+   filter: grayscale(100%);
+   transition: filter 0.4s ease;
 }
 
 .aula-card:hover {
-    /* ESCREVA SEU CODIGO AQUI */
+    filter: grayscale(0%);
+
 }
 
 .depoimento-card {
     background-color: #16213e;
     padding: 30px;
     border-radius: 12px;
-    /* ESCREVA SEU CODIGO AQUI */
+    filter: drop-shadow(0 4px 15px rgba(231, 76, 60, 0.3));
+    
 }
 
 
