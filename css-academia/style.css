@@ -189,11 +189,17 @@ body {
    ============================================= */
 
 .item-inativo {
-    /* ESCREVA SEU CODIGO AQUI */
+    opacity: 0.35;
+    text-decoration: line-through;
 }
 
 .hero-overlay {
-    /* ESCREVA SEU CODIGO AQUI */
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 
