@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronFit Academia - Atividade CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVEGACAO -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">&#9883;</span>
+                <h1 class="logo-texto">IronFit</h1>
+            </div>
+            <nav class="nav">
+                <a href="#planos" class="nav-link">Planos</a>
+                <a href="#aulas" class="nav-link">Aulas</a>
+                <a href="#equipe" class="nav-link">Equipe</a>
+                <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <a href="#planos" class="btn-header">Matricule-se</a>
+        </div>
+    </header>
+
+    <!-- HERO / BANNER PRINCIPAL -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-conteudo">
+            <h2 class="hero-titulo">Transforme Seu Corpo</h2>
+            <p class="hero-subtitulo">Treine com os melhores profissionais e equipamentos de ponta</p>
+            <a href="#planos" class="btn-hero">Comece Agora</a>
+        </div>
+    </section>
+
+    <!-- SECAO DE PLANOS -->
+    <section id="planos" class="secao secao-planos">
+        <h2 class="secao-titulo">Nossos Planos</h2>
+        <p class="secao-subtitulo">Escolha o plano ideal para voce</p>
+
+        <div class="planos-grid">
+            <div class="plano-card">
+                <div class="plano-destaque">Basico</div>
+                <div class="plano-preco">
+                    <span class="preco-cifrao">R$</span>
+                    <span class="preco-valor">79</span>
+                    <span class="preco-periodo">/mes</span>
+                </div>
+                <ul class="plano-lista">
+                    <li class="plano-item">Musculacao</li>
+                    <li class="plano-item">Cardio</li>
+                    <li class="plano-item">Vestiario</li>
+                    <li class="plano-item item-inativo">Aulas em grupo</li>
+                    <li class="plano-item item-inativo">Personal trainer</li>
+                </ul>
+                <a href="#" class="btn-plano">Assinar</a>
+            </div>
+
+            <div class="plano-card plano-popular">
+                <div class="plano-badge">Mais Popular</div>
+                <div class="plano-destaque">Premium</div>
+                <div class="plano-preco">
+                    <span class="preco-cifrao">R$</span>
+                    <span class="preco-valor">129</span>
+                    <span class="preco-periodo">/mes</span>
+                </div>
+                <ul class="plano-lista">
+                    <li class="plano-item">Musculacao</li>
+                    <li class="plano-item">Cardio</li>
+                    <li class="plano-item">Vestiario</li>
+                    <li class="plano-item">Aulas em grupo</li>
+                    <li class="plano-item item-inativo">Personal trainer</li>
+                </ul>
+                <a href="#" class="btn-plano">Assinar</a>
+            </div>
+
+            <div class="plano-card">
+                <div class="plano-destaque">Black</div>
+                <div class="plano-preco">
+                    <span class="preco-cifrao">R$</span>
+                    <span class="preco-valor">199</span>
+                    <span class="preco-periodo">/mes</span>
+                </div>
+                <ul class="plano-lista">
+                    <li class="plano-item">Musculacao</li>
+                    <li class="plano-item">Cardio</li>
+                    <li class="plano-item">Vestiario</li>
+                    <li class="plano-item">Aulas em grupo</li>
+                    <li class="plano-item">Personal trainer</li>
+                </ul>
+                <a href="#" class="btn-plano">Assinar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO DE AULAS -->
+    <section id="aulas" class="secao secao-aulas">
+        <h2 class="secao-titulo">Nossas Aulas</h2>
+        <p class="secao-subtitulo">Modalidades para todos os niveis</p>
+
+        <div class="aulas-grid">
+            <div class="aula-card">
+                <div class="aula-imagem" style="background-color: #e74c3c;">
+                    <span class="aula-emoji">&#127947;</span>
+                </div>
+                <div class="aula-info">
+                    <h3 class="aula-nome">CrossFit</h3>
+                    <p class="aula-desc">Treino funcional de alta intensidade com movimentos variados</p>
+                    <span class="aula-horario">Seg, Qua, Sex - 07h / 18h</span>
+                </div>
+            </div>
+
+            <div class="aula-card">
+                <div class="aula-imagem" style="background-color: #3498db;">
+                    <span class="aula-emoji">&#128692;</span>
+                </div>
+                <div class="aula-info">
+                    <h3 class="aula-nome">Spinning</h3>
+                    <p class="aula-desc">Pedale no ritmo da musica e queime calorias de forma divertida</p>
+                    <span class="aula-horario">Ter, Qui - 06h30 / 19h</span>
+                </div>
+            </div>
+
+            <div class="aula-card">
+                <div class="aula-imagem" style="background-color: #2ecc71;">
+                    <span class="aula-emoji">&#129496;</span>
+                </div>
+                <div class="aula-info">
+                    <h3 class="aula-nome">Yoga</h3>
+                    <p class="aula-desc">Equilibrio entre corpo e mente com posturas e respiracao</p>
+                    <span class="aula-horario">Seg a Sex - 08h / 17h</span>
+                </div>
+            </div>
+
+            <div class="aula-card">
+                <div class="aula-imagem" style="background-color: #f39c12;">
+                    <span class="aula-emoji">&#129354;</span>
+                </div>
+                <div class="aula-info">
+                    <h3 class="aula-nome">Muay Thai</h3>
+                    <p class="aula-desc">Arte marcial tailandesa para condicionamento e defesa pessoal</p>
+                    <span class="aula-horario">Ter, Qui, Sab - 09h / 20h</span>
+                </div>
+            </div>
+
+            <div class="aula-card">
+                <div class="aula-imagem" style="background-color: #9b59b6;">
+                    <span class="aula-emoji">&#128131;</span>
+                </div>
+                <div class="aula-info">
+                    <h3 class="aula-nome">Danca</h3>
+                    <p class="aula-desc">Ritmos variados para se exercitar com alegria e energia</p>
+                    <span class="aula-horario">Seg, Qua, Sex - 10h / 19h30</span>
+                </div>
+            </div>
+
+            <div class="aula-card">
+                <div class="aula-imagem" style="background-color: #1abc9c;">
+                    <span class="aula-emoji">&#127946;</span>
+                </div>
+                <div class="aula-info">
+                    <h3 class="aula-nome">Pilates</h3>
+                    <p class="aula-desc">Fortalecimento do core com exercicios de baixo impacto</p>
+                    <span class="aula-horario">Seg a Sex - 09h / 16h</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO EQUIPE -->
+    <section id="equipe" class="secao secao-equipe">
+        <h2 class="secao-titulo">Nossa Equipe</h2>
+        <p class="secao-subtitulo">Profissionais certificados e apaixonados pelo que fazem</p>
+
+        <div class="equipe-grid">
+            <div class="treinador-card">
+                <div class="treinador-foto">
+                    <div class="foto-placeholder" style="background-color: #e74c3c;">R</div>
+                </div>
+                <h3 class="treinador-nome">Rafael Costa</h3>
+                <p class="treinador-especialidade">Personal Trainer</p>
+                <p class="treinador-bio">Especialista em hipertrofia e emagrecimento com 10 anos de experiencia</p>
+            </div>
+
+            <div class="treinador-card">
+                <div class="treinador-foto">
+                    <div class="foto-placeholder" style="background-color: #3498db;">A</div>
+                </div>
+                <h3 class="treinador-nome">Ana Silva</h3>
+                <p class="treinador-especialidade">Instrutora de Yoga</p>
+                <p class="treinador-bio">Formada na India com certificacao internacional em Hatha e Vinyasa</p>
+            </div>
+
+            <div class="treinador-card">
+                <div class="treinador-foto">
+                    <div class="foto-placeholder" style="background-color: #f39c12;">M</div>
+                </div>
+                <h3 class="treinador-nome">Marcos Oliveira</h3>
+                <p class="treinador-especialidade">Coach de CrossFit</p>
+                <p class="treinador-bio">Competidor nacional e treinador certificado CrossFit Level 2</p>
+            </div>
+
+            <div class="treinador-card">
+                <div class="treinador-foto">
+                    <div class="foto-placeholder" style="background-color: #9b59b6;">J</div>
+                </div>
+                <h3 class="treinador-nome">Julia Santos</h3>
+                <p class="treinador-especialidade">Nutricionista Esportiva</p>
+                <p class="treinador-bio">Elabora dietas personalizadas para maximizar seus resultados</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO ESTATISTICAS -->
+    <section class="secao secao-stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-numero">5000+</span>
+                <span class="stat-label">Alunos Ativos</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-numero">15+</span>
+                <span class="stat-label">Modalidades</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-numero">30+</span>
+                <span class="stat-label">Profissionais</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-numero">8</span>
+                <span class="stat-label">Anos no Mercado</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO DEPOIMENTOS -->
+    <section id="depoimentos" class="secao secao-depoimentos">
+        <h2 class="secao-titulo">Depoimentos</h2>
+        <p class="secao-subtitulo">O que nossos alunos dizem</p>
+
+        <div class="depoimentos-grid">
+            <div class="depoimento-card">
+                <p class="depoimento-texto">"Perdi 20kg em 6 meses com o acompanhamento incrivel da equipe. A IronFit mudou minha vida!"</p>
+                <div class="depoimento-autor">
+                    <div class="autor-avatar" style="background-color: #e74c3c;">C</div>
+                    <div class="autor-info">
+                        <span class="autor-nome">Carlos Mendes</span>
+                        <span class="autor-plano">Plano Black</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="depoimento-card">
+                <p class="depoimento-texto">"As aulas de yoga me ajudaram com a ansiedade. Ambiente acolhedor e profissionais excelentes."</p>
+                <div class="depoimento-autor">
+                    <div class="autor-avatar" style="background-color: #2ecc71;">P</div>
+                    <div class="autor-info">
+                        <span class="autor-nome">Patricia Lima</span>
+                        <span class="autor-plano">Plano Premium</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="depoimento-card">
+                <p class="depoimento-texto">"Melhor custo-beneficio da regiao. Equipamentos novos e muita variedade de horarios."</p>
+                <div class="depoimento-autor">
+                    <div class="autor-avatar" style="background-color: #3498db;">F</div>
+                    <div class="autor-info">
+                        <span class="autor-nome">Fernando Rocha</span>
+                        <span class="autor-plano">Plano Basico</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO CONTATO -->
+    <section id="contato" class="secao secao-contato">
+        <h2 class="secao-titulo">Fale Conosco</h2>
+        <p class="secao-subtitulo">Tire suas duvidas ou agende uma visita</p>
+
+        <div class="contato-container">
+            <form class="contato-form">
+                <div class="form-grupo">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" id="nome" class="form-input" placeholder="Seu nome completo">
+                </div>
+                <div class="form-grupo">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input type="email" id="email" class="form-input" placeholder="seu@email.com">
+                </div>
+                <div class="form-grupo">
+                    <label class="form-label" for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="form-input" placeholder="(11) 99999-9999">
+                </div>
+                <div class="form-grupo">
+                    <label class="form-label" for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" class="form-input form-textarea" placeholder="Sua mensagem..."></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+            </form>
+
+            <div class="contato-info">
+                <div class="info-item">
+                    <span class="info-icone">&#128205;</span>
+                    <div>
+                        <h4 class="info-titulo">Endereco</h4>
+                        <p class="info-texto">Rua dos Atletas, 500 - Centro</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icone">&#128222;</span>
+                    <div>
+                        <h4 class="info-titulo">Telefone</h4>
+                        <p class="info-texto">(11) 3456-7890</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icone">&#128231;</span>
+                    <div>
+                        <h4 class="info-titulo">E-mail</h4>
+                        <p class="info-texto">contato@ironfit.com.br</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icone">&#128336;</span>
+                    <div>
+                        <h4 class="info-titulo">Horario</h4>
+                        <p class="info-texto">Seg a Sex: 05h - 23h | Sab: 07h - 18h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="footer-titulo">IronFit</h3>
+                <p class="footer-desc">Sua academia completa para uma vida mais saudavel e ativa.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-subtitulo">Links</h4>
+                <ul class="footer-lista">
+                    <li><a href="#planos" class="footer-link">Planos</a></li>
+                    <li><a href="#aulas" class="footer-link">Aulas</a></li>
+                    <li><a href="#equipe" class="footer-link">Equipe</a></li>
+                    <li><a href="#contato" class="footer-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-subtitulo">Redes Sociais</h4>
+                <div class="footer-social">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-rodape">
+            <p>&copy; 2026 IronFit Academia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
